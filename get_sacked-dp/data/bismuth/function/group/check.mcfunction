@@ -1,0 +1,2 @@
+$execute store result score #trinkets bismuth.dummy if data entity @s item.components."minecraft:bundle_contents"[{components:{"minecraft:custom_data":{bismuth:{trinket:{groups:["$(group)"]}}}}}]
+execute if score #trinkets bismuth.dummy matches 2.. run return run function bismuth:drop_item with storage bismuth:storage temp.macro_input

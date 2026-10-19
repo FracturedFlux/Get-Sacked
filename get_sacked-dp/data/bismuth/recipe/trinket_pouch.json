@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "s",
+    "r"
+  ],
+  "key": {
+    "s": [
+      "minecraft:string"
+    ],
+    "r": [
+      "minecraft:sugar_cane"
+    ]
+  },
+  "result": {
+    "id": "minecraft:yellow_bundle",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.bismuth.trinket_pouch"
+      },
+      "minecraft:lore": [
+        "",
+        {
+          "translate": "item.bismuth.trinket_pouch.empty",
+          "italic": false,
+          "color": "gray"
+        }
+      ],
+      "minecraft:item_model": "bismuth:trinket_pouch",
+      "minecraft:custom_data": {
+        "bismuth": {
+          "id": "trinket_pouch",
+          "equipped": false,
+          "checked": false
+        },
+        "smithed": {
+          "ignore": {
+            "functionality": true,
+            "crafting": true
+          }
+        }
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:bundle_contents"
+        ]
+      }
+    }
+  }
+}

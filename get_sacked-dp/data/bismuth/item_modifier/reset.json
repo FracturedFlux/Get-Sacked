@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": {
+        "bismuth": {
+          "equipped": false
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_custom_model_data",
+      "flags": {
+        "values": [
+          false
+        ],
+        "mode": "replace_all"
+      }
+    },
+    {
+      "type": "minecraft:set_lore",
+      "lore": [
+        "",
+        {
+          "translate": "item.bismuth.trinket_pouch.empty",
+          "italic": false,
+          "color": "dark_gray"
+        }
+      ],
+      "mode": "replace_all"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:limit_slots",
+  "limit": 1,
+  "slot_source": {
+    "type": "minecraft:filtered",
+    "item_filter": {
+      "predicates": {
+        "minecraft:custom_data": {
+          "bismuth": {
+            "id": "trinket_pouch",
+            "checked": 0
+          }
+        }
+      }
+    },
+    "slot_source": "bismuth:scannable"
+  }
+}

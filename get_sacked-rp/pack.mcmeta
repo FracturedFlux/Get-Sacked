@@ -1,0 +1,19 @@
+{
+  "pack": {
+    "min_format": [75,0],
+    "max_format": [97,1],
+    "description": [
+      {
+        "text": "🧪 bismuth 🧪",
+        "color": "#c6d5ec"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "By Flux",
+        "color": "#eef7ff"
+      }
+    ]
+  }
+}

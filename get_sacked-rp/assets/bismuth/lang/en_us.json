@@ -1,0 +1,28 @@
+{
+    "ui.bismuth.title": "Get Sacked!",
+    "ui.bismuth.description": "\"A shared code library for friends and foes alike!\"",
+    "ui.bismuth.version": "v1.0",
+
+    "ui.bismuth.setting.trinket_descriptions": "Trinket Descriptions",
+    "ui.bismuth.setting.trinket_descriptions.description": "If enabled, Trinkets will show their full descriptions in the tooltip of a Trinket Pouch.",
+    
+    "contributor.lead": "Lead",
+    "contributor.bismuth.lead.description": "Developer and artist",
+    "contributor.fracturedflux": "FracturedFlux",
+    "contributor.bismuth.fracturedflux.description": "Developer, console log spammer",
+
+    "platform.modrinth": "Modrinth",
+    "platform.smithed": "Smithed",
+    "platform.github": "GitHub",
+
+    "item.bismuth.trinket.header": "When in Pouch:",
+    "item.bismuth.trinket.weight": " %s%% Trinket Weight",
+    "item.bismuth.trinket.weight.tooltip": " (%s%%)",
+    "item.bismuth.trinket_pouch": "Trinket Pouch",
+    "item.bismuth.trinket_pouch.equipped": "%s Equipped",
+    "item.bismuth.trinket_pouch.list": "Trinkets:",
+    "item.bismuth.trinket_pouch.empty": "Empty",
+    "item.bismuth.wayward_compass": "Wayward Compass",
+    "item.bismuth.template.description.1": " Does something,",
+    "item.bismuth.template.description.2": " Inevitably!"
+}

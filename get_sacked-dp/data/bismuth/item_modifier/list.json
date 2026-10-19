@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_lore",
+      "lore": [
+        "",
+        {
+          "translate": "item.bismuth.trinket_pouch.list",
+          "italic": false,
+          "color": "gray"
+        }
+      ],
+      "mode": "replace_all"
+    }
+  ]
+}

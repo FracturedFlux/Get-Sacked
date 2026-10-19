@@ -1,0 +1,2 @@
+$execute if score #setting bismuth.dummy matches 1 run item modify entity @s contents {type:"minecraft:set_lore",lore:[$(out)],mode:"append"}
+$execute if score #setting bismuth.dummy matches 0 run item modify entity @s contents {type:"minecraft:set_lore",lore:$(out),mode:"append"}
