@@ -1,0 +1,57 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "on_true": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "get_sacked:item/trinket_pouch/base"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "get_sacked:item/trinket_pouch/equipped"
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "get_sacked:item/trinket_pouch/base"
+            }
+          },
+          "on_true": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:model",
+                "model": "get_sacked:item/trinket_pouch/open_back"
+              },
+              {
+                "type": "minecraft:bundle/selected_item"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "get_sacked:item/trinket_pouch/open_front"
+              }
+            ]
+          },
+          "property": "minecraft:bundle/has_selected_item"
+        },
+        "when": "gui"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "get_sacked:item/trinket_pouch/base"
+    },
+    "property": "minecraft:display_context"
+  }
+}

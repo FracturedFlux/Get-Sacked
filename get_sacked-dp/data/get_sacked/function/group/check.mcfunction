@@ -1,0 +1,2 @@
+$execute store result score #trinkets get_sacked.dummy if data entity @s item.components."minecraft:bundle_contents"[{components:{"minecraft:custom_data":{get_sacked:{trinket:{groups:["$(group)"]}}}}}]
+execute if score #trinkets get_sacked.dummy matches 2.. run return run function get_sacked:drop_item with storage get_sacked:storage temp.macro_input

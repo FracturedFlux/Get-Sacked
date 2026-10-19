@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:filtered",
+  "item_filter": {
+    "predicates": {
+      "minecraft:custom_data": {
+        "get_sacked": {
+          "id": "trinket_pouch"
+        }
+      }
+    }
+  },
+  "slot_source": "get_sacked:scannable"
+}

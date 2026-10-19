@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_lore",
+      "lore": [
+        "",
+        {
+          "translate": "item.get_sacked.trinket_pouch.list",
+          "italic": false,
+          "color": "gray"
+        }
+      ],
+      "mode": "replace_all"
+    }
+  ]
+}

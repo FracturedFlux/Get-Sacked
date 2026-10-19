@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": {
+        "get_sacked": {
+          "equipped": true
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_custom_model_data",
+      "flags": {
+        "values": [
+          true
+        ],
+        "mode": "replace_all"
+      }
+    }
+  ]
+}

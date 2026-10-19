@@ -1,0 +1,28 @@
+{
+    "ui.get_sacked.title": "Get Sacked!",
+    "ui.get_sacked.description": "\"A shared code library for friends and foes alike!\"",
+    "ui.get_sacked.version": "v1.0",
+
+    "ui.get_sacked.setting.trinket_descriptions": "Trinket Descriptions",
+    "ui.get_sacked.setting.trinket_descriptions.description": "If enabled, Trinkets will show their full descriptions in the tooltip of a Trinket Pouch.",
+    
+    "contributor.lead": "Lead",
+    "contributor.get_sacked.lead.description": "Developer and artist",
+    "contributor.fracturedflux": "FracturedFlux",
+    "contributor.get_sacked.fracturedflux.description": "Developer, console log spammer",
+
+    "platform.modrinth": "Modrinth",
+    "platform.smithed": "Smithed",
+    "platform.github": "GitHub",
+
+    "item.get_sacked.trinket.header": "When in Pouch:",
+    "item.get_sacked.trinket.weight": " %s%% Trinket Weight",
+    "item.get_sacked.trinket.weight.tooltip": " (%s%%)",
+    "item.get_sacked.trinket_pouch": "Trinket Pouch",
+    "item.get_sacked.trinket_pouch.equipped": "%s Equipped",
+    "item.get_sacked.trinket_pouch.list": "Trinkets:",
+    "item.get_sacked.trinket_pouch.empty": "Empty",
+    "item.get_sacked.wayward_compass": "Wayward Compass",
+    "item.get_sacked.template.description.1": " Does something,",
+    "item.get_sacked.template.description.2": " Inevitably!"
+}

@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_bundle",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.get_sacked.trinket_pouch"
+                },
+                "minecraft:lore": [
+                  "",
+                  {
+                    "translate": "item.get_sacked.trinket_pouch.empty",
+                    "italic": false,
+                    "color": "dark_gray"
+                  }
+                ],
+                "minecraft:item_model": "get_sacked:trinket_pouch",
+                "minecraft:custom_data": {
+                  "get_sacked": {
+                    "id": "trinket_pouch",
+                    "equipped": false,
+                    "checked": false
+                  },
+                  "smithed": {
+                    "ignore": {
+                      "functionality": true,
+                      "crafting": true
+                    }
+                  }
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:bundle_contents"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

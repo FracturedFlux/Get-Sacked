@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "get_sacked:item/wayward_compass"
+  }
+}

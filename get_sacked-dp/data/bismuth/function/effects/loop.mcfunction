@@ -1,1 +1,0 @@
-execute if data storage bismuth:storage temp.effects.list[0].tag run function bismuth:effects/tag/add/main with storage bismuth:storage temp.effects.list[0]

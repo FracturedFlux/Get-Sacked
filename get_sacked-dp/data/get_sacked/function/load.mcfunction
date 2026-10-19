@@ -1,0 +1,1 @@
+scoreboard objectives add get_sacked.dummy dummy

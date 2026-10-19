@@ -1,0 +1,1 @@
+execute if data storage get_sacked:storage temp.effects.list[0].tag run function get_sacked:effects/tag/add/main with storage get_sacked:storage temp.effects.list[0]
