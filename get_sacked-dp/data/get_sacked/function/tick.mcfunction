@@ -1,0 +1,1 @@
+execute as @a[scores={get_sacked.throw=1..}] run function get_sacked:advancement

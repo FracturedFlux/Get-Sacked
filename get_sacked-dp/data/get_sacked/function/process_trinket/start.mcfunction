@@ -1,4 +1,5 @@
 advancement revoke @s only get_sacked:update_unchecked_trinket
+say what
 
 tag @s add get_sacked.target
 execute summon minecraft:item_display run function get_sacked:process_trinket/as_entity

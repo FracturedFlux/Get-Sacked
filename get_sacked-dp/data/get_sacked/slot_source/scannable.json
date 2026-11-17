@@ -20,6 +20,10 @@
     {
       "type": "minecraft:slot_range",
       "slots": "player.crafting.*"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "player.cursor"
     }
   ]
 }

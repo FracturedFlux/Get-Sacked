@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:limit_slots",
+  "limit": 1,
+  "slot_source": {
+    "type": "minecraft:filtered",
+    "item_filter": {
+      "items": "#get_sacked:dyed_pouches",
+      "predicates": {
+        "minecraft:custom_data": {
+          "get_sacked": {
+            "id": "trinket_pouch"
+          }
+        }
+      }
+    },
+    "slot_source": "get_sacked:scannable"
+  }
+}

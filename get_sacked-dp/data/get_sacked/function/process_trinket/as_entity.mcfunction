@@ -9,6 +9,6 @@ item modify entity @s contents get_sacked:checked/true
 
 item replace entity @p[tag=get_sacked.target] get_sacked:trinket/unchecked from entity @s contents
 
-execute if slots entity @p[tag=get_sacked.target] get_sacked:trinket/unchecked run return run function get_sacked:trinket/process/as_entity
+execute if slots entity @p[tag=get_sacked.target] get_sacked:trinket/unchecked run return run function get_sacked:process_trinket/as_entity
 
 function get_sacked:despawn

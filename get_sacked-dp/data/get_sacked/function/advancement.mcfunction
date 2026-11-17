@@ -16,4 +16,5 @@ execute if data storage get_sacked:storage temp.effects.list run function get_sa
 
 data remove storage get_sacked:storage temp
 
+scoreboard players reset @s get_sacked.throw
 advancement revoke @s only get_sacked:update_trinket_pouch

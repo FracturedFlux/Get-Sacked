@@ -8,7 +8,8 @@
             "predicates": {
               "minecraft:custom_data": {
                 "get_sacked": {
-                  "checked": false
+                  "checked": false,
+                  "trinket": {}
                 }
               }
             }
